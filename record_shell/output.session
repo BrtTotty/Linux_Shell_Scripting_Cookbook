@@ -1,0 +1,66 @@
+Script started on 2015年02月23日 星期一 17时44分24秒
+]0;brt@centOS6:~[?1034h[brt@centOS6 ~]$ cat -n [K[K[K[K[K[K[Kls
+file.py          output.session  timing.log  [0m[01;34m模板[0m  [01;34m图片[0m  [01;34m下载[0m  [01;34m桌面[0m
+multiBlanks.txt  [01;34mprogram[0m         [01;34m公共的[0m      [01;34m视频[0m  [01;34m文档[0m  [01;34m音乐[0m
+[m]0;brt@centOS6:~[brt@centOS6 ~]$ cat -T -n file.py 
+     1	def function():
+     2	^Ivar = 5
+     3	        next = 6
+     4	^Ithird = 7
+]0;brt@centOS6:~[brt@centOS6 ~]$ cat -s multiBlanks.txt 
+line1
+
+line2
+
+line3
+
+line4
+]0;brt@centOS6:~[brt@centOS6 ~]$ cat -n multiBlanks.txt 
+     1	line1
+     2	
+     3	
+     4	
+     5	line2
+     6	
+     7	line3
+     8	
+     9	
+    10	line4
+]0;brt@centOS6:~[brt@centOS6 ~]$ exit
+exit
+
+Script done on 2015年02月23日 星期一 17时45分12秒
+Script started on 2015年02月23日 星期一 17时59分28秒
+]0;brt@centOS6:~/program/shell[?1034h[brt@centOS6 shell]$ cat -n -T multiBlanks.txt 
+     1	line1
+     2	
+     3	
+     4	
+     5	line2
+     6	
+     7	line3
+     8	
+     9	
+    10	line4
+]0;brt@centOS6:~/program/shell[brt@centOS6 shell]$ cat -n -T multiBlanks.txt [1P[1@s
+     1	line1
+     2	
+     3	line2
+     4	
+     5	line3
+     6	
+     7	line4
+]0;brt@centOS6:~/program/shell[brt@centOS6 shell]$ cat -n file.py 
+     1	def function():
+     2		var = 5
+     3	        next = 6
+     4		third = 7
+]0;brt@centOS6:~/program/shell[brt@centOS6 shell]$ cat -n file.py [1P[1@s[1P[1@n[C[1@ [1@_[1P[1@-[1@T
+     1	def function():
+     2	^Ivar = 5
+     3	        next = 6
+     4	^Ithird = 7
+]0;brt@centOS6:~/program/shell[brt@centOS6 shell]$ exit
+exit
+
+Script done on 2015年02月23日 星期一 18时00分05秒
