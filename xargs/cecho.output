@@ -1,0 +1,4 @@
+arg1 agr2 agr3 #
+-p arg1 -1 #
+-p agr2 -1 #
+-p agr3 -1 #
